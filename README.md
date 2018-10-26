@@ -2,12 +2,12 @@
 
 # city-state.js
 
-> Observable and encapsulated state management
+> Observable and encapsulated state management for Preact
 
 ## Installation
 
 ```bash
-npm install --save city-state
+npm install --save city-state-preact
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ children whenever there is a new value.
 // Model
 //
 
-import { Subscribe } from 'city-state'
+import { Subscribe } from 'city-state-preact'
 
 @subscribable
 class Counter {
@@ -84,7 +84,7 @@ Interface:
 - `this[$$obseravble]`: Symbol.Observable interop point
 
 ```js
-import { subscribable } from 'city-state';
+import { subscribable } from 'city-state-preact';
 
 @subscribable
 class Counter {
