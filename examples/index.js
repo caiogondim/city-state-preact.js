@@ -1,5 +1,4 @@
-const React = require('react')
-const ReactDOM = require('react-dom')
+const preact = require('preact')
 const { interval, from } = require('rxjs')
 const redux = require('redux')
 const msleep = require('async-msleep')
@@ -155,7 +154,7 @@ function ObservableCounterView () {
 // rxjs
 //
 
-class TimerView extends React.Component {
+class TimerView extends preact.Component {
   constructor () {
     super()
     this.interval1 = interval(2000)
@@ -195,4 +194,4 @@ function Main () {
 
 const $container = document.createElement('div')
 document.body.appendChild($container)
-ReactDOM.render(<Main />, $container)
+preact.render(<Main />, $container)

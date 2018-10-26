@@ -1,7 +1,7 @@
-const React = require('react')
+const preact = require('preact')
 const $$observable = require('symbol-observable').default
 
-class Subscribe extends React.Component {
+class Subscribe extends preact.Component {
   constructor (props) {
     super()
     this.state = {
@@ -56,7 +56,7 @@ class Subscribe extends React.Component {
   render () {
     return (
       <div style={this.props.style} className={this.props.className}>
-        {this.props.children(...this.state.last)}
+        {this.props.children[0](...this.state.last)}
       </div>
     )
   }
