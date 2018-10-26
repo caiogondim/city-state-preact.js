@@ -1,6 +1,5 @@
+const { subscribable, devtool } = require('city-state')
 const Subscribe = require('./subscribe')
-const subscribable = require('./subscribable')
-const devtool = require('./devtool')
 
 module.exports = {
   Subscribe,
