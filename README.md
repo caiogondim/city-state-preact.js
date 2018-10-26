@@ -1,6 +1,6 @@
 <img src="https://file-erjgqauviw.now.sh">
 
-# city-state.js
+# city-state-preact.js
 
 > Observable and encapsulated state management for Preact
 
