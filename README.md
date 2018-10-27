@@ -124,6 +124,9 @@ const foo = new Foo()
 devtool(foo, { name: 'foo' })
 ```
 
+## Related
+- [city-state](https://github.com/caiogondim/city-state.js)
+
 ## Sponsor
 
 If you found this library useful and are willing to donate, transfer some
