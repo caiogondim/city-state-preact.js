@@ -47,7 +47,7 @@ const counter = new Counter()
 // View
 //
 
-import React from 'react'
+import preact from 'preact'
 
 export default function CounterView({ counter }) {
   <Subscribe to={[counter]}>
